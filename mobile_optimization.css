@@ -1,0 +1,164 @@
+@media screen and (max-width: 400px) {
+    .head {
+        width: 375px;
+        height: fit-content;
+        background: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .header {
+        width: 375px;
+        background: bisque;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .buttom {
+        width: 35px;
+        height: 15px;
+        background: brown;
+
+    }
+
+    .introduction {
+        width: 375px;
+        height: fit-content;
+        text-align: center;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .fatherone {
+        width: 375px;
+        background: azure;
+        box-sizing: border-box;
+
+    }
+
+    #fatherone {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 35px;
+    }
+
+    .cub {
+        width: 300px;
+        height: 40px;
+        background: chartreuse;
+    }
+
+    .line {
+        width: 150px;
+        height: 25px;
+        background: crimson;
+    }
+
+    .fathertwoo {
+        width: 400px;
+        background: bisque;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .border {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bordero {
+        width: 200px;
+        height: 200px;
+    }
+
+    .text {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .topping {
+        width: 400px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h_topping {
+        display: flex;
+        padding-left: 110px;
+    }
+
+    .image {
+        width: 200px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+        padding-bottom:45px;
+        padding-left: 110px;
+    }
+    .frame{
+        display: block;
+        border: silver 1px solid;
+    }
+    .frame_bottow {
+        width: 375px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_text {
+        display: flex;
+        background: silver;
+        text-align: center;
+        align-self: flex-end;
+    }
+    .radio {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: flex-start;
+    }
+    .floor{
+        width: 400px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rignt_content{
+        width: 375px;
+        height: fit-content;
+
+    }
+    .left_content{
+        width: 375px;
+        height: fit-content;
+    }
+    .pit{
+        width: 400px;
+    }
+    .pit_border{
+        width: 400px;
+    }
+}
+
+

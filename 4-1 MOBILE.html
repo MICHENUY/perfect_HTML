@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mobile</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .fatherone {
+            width: 1500px;
+            height: 500px;
+            background: #c3eeee;
+            text-align: center;
+            border: aqua solid 5px;
+            border-radius: 20%;
+        }
+
+        .lor1 {
+            padding: 35px;
+        }
+        #fatherone{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items: center;
+        }
+
+
+
+        .cub {
+            width: 250px;
+            height: 300px;
+            background: blue;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-self: center;
+        }
+
+        .line {
+            width: 150px;
+            height: 25px;
+            background: rgba(250, 247, 2, 0.94);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-self: flex-end;
+            margin: -40px;
+
+
+
+
+        }
+
+        .fathertwoo {
+            width: 1500px;
+            height: 900px;
+            background: blue;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            column-gap: 30px;
+        }
+
+        .circle {
+            width: 400px;
+            height: 400px;
+            background: #c3eeee;
+            border-radius: 50%;
+            column-gap: 20px;
+        }
+
+        .border {
+            width: 400px;
+            height: 550px;
+            display: flex;
+            align-self: center;
+            flex-wrap: wrap;
+            border: crimson solid 2px;
+            padding-top: 10px;
+            margin-right: 15px;
+        }
+
+        .bordero {
+            width: 400px;
+            height: 550px;
+            display: flex;
+            align-self: center;
+        }
+    </style>
+    <style>
+        @media screen and (max-width: 400px) {
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .fatherone{
+                width: 375px;
+                background: azure;
+                box-sizing: border-box;
+
+            }
+            #fatherone{
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
+                row-gap: 35px;
+            }
+            .cub{
+                width: 300px;
+                height: 40px;
+                background: chartreuse;
+            }
+            .line{
+                width: 150px;
+                height: 25px;
+                background: crimson;
+
+            }
+            .fathertwoo{
+                width: 400px;
+                background: bisque;
+            }
+            .circle{
+                width: 200px;
+                height: 200px;
+
+
+            }
+            .border{
+                width: 200px;
+                height: 200px;
+
+            }
+            .bordero{
+                width: 200px;
+                height: 200px;
+
+            }
+            .text{
+                text-align: center;
+                padding-bottom: 50px;
+
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div class="fatherone">
+    <div class="lor1"> Lorem ipsuml ipsum</div>
+    <div id="fatherone">
+        <div class="cub">
+            <span class="line"></span>
+        </div>
+        <div class="cub">
+            <span class="line"></span>
+        </div>
+        <div class="cub">
+            <span class="line"></span>
+        </div>
+        <div class="cub">
+            <span class="line"></span>
+        </div>
+    </div>
+
+</div>
+<div class="fathertwoo">
+    <div class="circle">
+        <span class="bordero"></span>
+        <span class="text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quo.</p></span>
+    </div>
+    <div class="circle">
+        <span class="border"></span>
+        <span class="text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quo.</p></span>
+    </div>
+    <div class="circle">
+        <span class="bordero"></span>
+        <span class="text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quo.</p></span>
+    </div>
+
+</div>
+
+</body>
+</html>
